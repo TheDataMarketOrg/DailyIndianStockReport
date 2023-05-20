@@ -18,7 +18,7 @@ def csv_to_json(csv_file):
 
     return json_data
 
-csv_file = r'C:\Users\tanmo\Desktop\Stock\BhavCopyAnalysis\May20231.csv'  # Replace with the path to your CSV file
+csv_file = r'May20231.csv'  # Replace with the path to your CSV file
 json_data = csv_to_json(csv_file)
 print(json_data)
 
